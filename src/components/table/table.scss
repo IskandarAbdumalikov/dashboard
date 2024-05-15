@@ -1,0 +1,77 @@
+.admin__body {
+  padding: 150px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.admin__body__intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin__body__intro__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  button {
+    background: #eef2f5;
+    border-radius: 5px;
+    border: 1px solid transparent !important;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.4s;
+    color: black;
+  }
+}
+
+.user__name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+table,
+tr,
+th,
+td {
+  align-items: flex-start;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background: #eef2f5;
+}
+
+.admin__body__table{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.loading__items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
