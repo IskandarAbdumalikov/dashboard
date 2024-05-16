@@ -56,7 +56,7 @@ const Admin = () => {
         <div className="sidebar__btns">
           <NavLink onClick={handleCloseAdmin} to={"/"} className="log__out">
             <img src={logOutImg} alt="" />
-            <h3>LogOut</h3>
+            {openSidebar ? <h3>Log Out</h3> : <></>}
           </NavLink>
           <NavLink to={"/"} className="log__out">
             <img width={25} src={homeImg} alt="" />
